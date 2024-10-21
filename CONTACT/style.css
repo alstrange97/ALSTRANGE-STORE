@@ -1,0 +1,427 @@
+/* ALL START */
+*{
+   
+    align-items: center;
+    box-sizing: border-box;
+  }
+  
+  /* ALL END */
+  
+  
+  
+  /* NAVBAR START */
+  .navbar-logo {
+    width: 150px;
+    height: auto;
+  }
+  .navbar {
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+  }
+  .navbar .nav-link {
+    color: rgb(0, 0, 0) !important;
+    font-family: "Sunflower", sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    margin-right: 20px;
+  }
+  .navbar-nav .nav-link:hover {
+    color: #FF5733;
+    text-decoration: underline;
+  }
+  
+  .navbar-nav {
+    margin-top: 0;
+  }
+  .navbar-collapse {
+    text-align: center;
+    z-index: 100;
+    font-size: 20px;
+    
+  }
+  
+  .navbar-nav {
+    display: flex;
+    justify-content: flex-end; 
+    width: 100%;
+  }
+  .navbar-nav .nav-link {
+    color: #ffffff;
+  }
+  
+  
+  
+  
+  @media (max-width: 992px) {
+    .navbar-nav {
+      text-align: center;
+      width: 100%;
+    }
+  
+    .navbar-nav .nav-item {
+      margin-bottom: 1rem;
+    }
+  
+    .navbar-toggler-icon {
+      background-image: none;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .navbar-brand img {
+      max-height: 130px;
+      margin-bottom: -80px;
+    }
+    .navbar-collapse {
+      position: absolute;
+      top: 100%; 
+      left: 0;
+      right: 0;
+      width: 100%; 
+      background-color: white;
+    }
+    
+  
+    .navbar-nav .nav-link {
+      padding: 0.5rem;
+      font-size: 0.9rem;
+     
+    }
+    .navbar-logo {
+      margin-top: -120px;
+      max-width: 70px;
+    }
+    .navbar {
+      height: 30px;
+      
+    }
+    .nav-link{
+      color: black;
+    }
+  }
+  
+  /* NAVBAR END */
+  
+  .hero {
+    background-image: url('herok.jpg');
+    height: 30vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-content {
+    text-align: center;
+    color: white;
+    font-family: "Staatliches", sans-serif;
+    text-transform: uppercase;
+    font-size: 4rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  }
+  
+  .hero h1{
+   background: none;
+  }
+
+  .card-form {
+    max-width: 600px;
+    margin: 20px auto;
+}
+.form-textarea {
+    height: 150px;
+}
+
+/* Mengatur tata letak untuk formulir kontak */
+.container {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Responsif untuk layar kecil */
+@media (max-width: 768px) {
+  .container {
+      margin-top: 10px;
+  }
+}
+/* FOOTER START */
+
+.footer-custom {
+  background-color: rgb(43, 52, 56);
+  padding: 40px 0;
+  color: white;
+}
+
+.footer-custom .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-custom .row {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-custom .col-md-3 {
+  text-align: center;
+  margin-bottom: 20px;
+  flex: 0 0 22%; 
+}
+
+.footer-custom .col-md-3 p,
+.footer-custom .col-md-3 div {
+  margin-top: 15px;
+}
+
+.footer-custom .icon-container {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.footer-custom .icon-container i {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 50%;
+  color: #000; /* Set icon color to black */
+  background-color: #f0f0f0; /* Optional: background color for contrast */
+}
+
+.payment div {
+  margin-top: 10px;
+}
+
+.divider {
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-center p {
+  margin: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .footer-custom .row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-custom .col-md-3 {
+    flex: 0 0 100%; /* Full width for each column */
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer-custom .icon-container i {
+    font-size: 18px;
+    padding: 8px;
+  }
+
+  .footer-custom .container {
+    padding: 0 20px;
+  }
+
+  .footer-custom .row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .footer-custom .col-md-3 {
+    margin-bottom: 20px;
+  }
+}
+
+
+/* FOOTER END */
+
+/* Responsive Styles */
+@media (max-width: 992px) { 
+  .footer-custom .logo {
+    width: 80px;
+  }
+  .footer-custom .icon-container {
+    font-size: 1.2rem;
+  }
+  .footer-custom .payment {
+    font-size: 0.8rem;
+  }
+  .hero{
+    height: 30v;
+  }
+  .teks p {
+    font-size: 1em; /* Adjust font size for tablets */
+    margin: 15px 0; /* Adjust margin for tablets */
+}
+
+}
+
+@media (max-width: 768px) { 
+  .footer-custom .container {
+    text-align: center;
+  }
+  .footer-custom .row {
+    flex-direction: column;
+  }
+  .footer-custom .col-md-3 {
+    margin-bottom: 20px;
+  }
+  .footer-custom .logo {
+    width: 70px;
+  }
+  .footer-custom .icon-container {
+    font-size: 1rem;
+  }
+  .footer-custom .payment {
+    font-size: 0.7rem;
+  }
+  .teks p {
+    font-size: 0.9em; 
+    margin: 10px 0; 
+    max-width: 300px;
+    margin-left: 60px;
+}
+.herok{
+  height: 30vh;
+}
+.carousel{
+  height: 30VH;
+}
+
+}
+/* FOOTER END */
+
+.ocean {
+  height: 5%; /* Adjust height if needed */
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #015871;
+  overflow: hidden; /* Prevents overflow */
+  z-index: -1; /* Sends it to the back */
+}
+
+.wave {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x;
+  position: absolute;
+  width: 6400px; /* Large width to create the wave effect */
+  top: -198px; /* Adjust position */
+  left: 0;
+  height: 198px; /* Height of the wave */
+  transform: translate(0, 0, 0);
+  animation: wave 7s ease infinite; /* Wave animation */
+}
+
+.wave:nth-of-type(2) {
+  top: -168px; /* Adjust for the second wave */
+  animation: swell 4s ease infinite; /* Different animation for the second wave */
+  opacity: 1; /* Opacity settings */
+}
+
+@keyframes wave {
+  0% { margin-left: 0; }
+  100% { margin-left: -1600px; } /* Full movement for wave animation */
+}
+
+@keyframes swell {
+  0%, 100% {
+    transform: translate(0, -30px); /* Swell movement */
+  }
+  50% {
+    transform: translate(0, 5px);
+  }
+}
+
+.hero_area {
+  position: relative;
+  height: 70vh;
+  background-color: rgb(10, 0, 195);
+  margin-top: 130px;
+}
+.wave-container {
+position: relative; /* Pastikan posisi relatif jika ada elemen lain di sekitarnya */
+z-index: 1; /* Pastikan gelombang di atas footer */
+}
+
+.footer-custom {
+position: relative; /* Untuk memastikan footer berada di bawah gelombang */
+z-index: 0; /* Agar footer berada di bawah gelombang */
+}
+
+.waves {
+  position: absolute;
+  width: 100%;
+  height: 15vh;
+  min-height: 100px;
+  max-height: 150px;
+  bottom: 0;
+  left: 0;
+}
+
+.parallax>use {
+  animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
+}
+
+.parallax>use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+
+.parallax>use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+
+.parallax>use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+
+.parallax>use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+
+@keyframes move-forever {
+  0% {
+      transform: translate3d(-90px, 0, 0);
+  }
+
+  100% {
+      transform: translate3d(85px, 0, 0);
+  }
+}
+
+
+/*Shrinking for mobile*/
+
+@media (max-width: 768px) {
+  .waves {
+      height: 40px;
+      min-height: 40px;
+      color: rgb(255, 255, 255);
+  }
+}
+
+/* Waves Animation end*/

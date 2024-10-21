@@ -1,0 +1,680 @@
+
+/* NAVBAR START */
+.navbar-logo {
+    width: 150px;
+    height: auto;
+  }
+  .navbar {
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    color: white !important;
+  }
+  .navbar .nav-link {
+    color: rgb(0, 0, 0) !important;
+    font-family: "Sunflower", sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    margin-right: 20px;
+  }
+  .navbar-nav .nav-link:hover {
+    color: #e2f14e;
+    text-decoration: underline;
+  }
+  .navbar-toggler {
+    margin-left: auto;
+  }
+  .navbar-nav {
+    margin-top: 0;
+  }
+  .navbar-collapse {
+    text-align: center;
+    z-index: 100;
+    font-size: 20px;
+  }
+  .navbar-nav {
+    display: flex;
+    justify-content: flex-end; 
+    width: 100%;
+  }
+  .navbar-nav .nav-link {
+    color: #ffffff;
+  }
+  .navbar-toggler-icon {
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    margin-top: -40px;
+    border: none;
+  }
+  
+  .navbar-toggler {
+    border-color: rgb(0, 0, 0); 
+  }
+  
+  @media (max-width: 992px) {
+    .navbar-nav {
+      text-align: center;
+      width: 100%;
+    }
+  
+    .navbar-nav .nav-item {
+      margin-bottom: 1rem;
+    }
+  
+    .navbar-toggler-icon {
+      background-image: none;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .navbar-brand img {
+      max-height: 130px;
+      margin-bottom: -80px;
+    }
+    
+
+   .navbar-collapse {
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    right: 0;
+    width: 100%; 
+    background-color: white;
+  }
+  
+    .navbar-nav .nav-link {
+      padding: 0.5rem;
+      font-size: 0.9rem;
+     
+    }
+    .navbar-logo {
+      margin-top: -120px;
+      max-width: 70px;
+    }
+    .navbar {
+      height: 30px;
+      
+    }
+    .nav-link{
+      color: black;
+    }
+
+  }
+  /* NAVBAR END */
+
+  .hero {
+    background-image: url('../GALLERY/c.JPG');
+    height: 30vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-content {
+    text-align: center;
+    color: white;
+    font-family: "Staatliches", sans-serif;
+    text-transform: uppercase;
+    font-size: 4rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  }
+  
+  
+  /* ARIVAL START */
+  .carousel {
+    width: 100%; 
+    max-width: 800px;
+    height: 900px !important;
+    margin: 0 auto;
+    position: relative; 
+  }
+
+.carousel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-custom {
+    width: 100%;
+    max-width: 250px;    
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding-top: 10px;
+   
+}
+
+.mr-2 {
+    margin-right: 10px;
+}
+
+.new-arrival{
+  font-family: "Staatliches", sans-serif;
+  font-size: 40px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+  
+
+  .carousel-item img {
+    border-radius: 20px; 
+}
+
+/* ARIVAL END */
+.modal-dialog {
+  max-width: 400px !important; 
+  
+}
+
+.modal-content {
+  border: none; /* Menghilangkan border modal */
+  border-radius: 20px !important; /* Menambahkan border radius pada modal */
+  box-shadow: none; /* Menghilangkan shadow modal */
+}
+
+.icon-menu {
+  font-size: 20px;
+  color: #070b7b; 
+  cursor: pointer;
+}
+
+.card-description{
+  color: #3e3e3e;
+}
+.card-custom {
+  margin-bottom: 15px;
+}
+.card-title {
+  font-size: 0.9rem;
+  font-weight: bold;
+  background-color: #e2f14e;
+    border-radius: 20px;      
+  padding: 7px;           
+  color: #0a0fa7 !important;
+}
+.card-price {
+  color: #28a745;
+  font-size: 1.2rem;
+}
+.btn-buy {
+  background-color: #007bff;
+  color: white;
+  border-radius: 20px;
+  width: 90% !important;
+  display: block !important;
+  margin: 0 auto;
+}
+
+/* CATALOG CARD START */
+
+/* FOOTER START */
+
+.footer-custom {
+  background-color: rgb(43, 52, 56);
+  padding: 40px 0;
+  color: white;
+}
+
+.footer-custom .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-custom .row {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-custom .col-md-3 {
+  text-align: center;
+  margin-bottom: 20px;
+  flex: 0 0 22%; 
+}
+
+.footer-custom .col-md-3 p,
+.footer-custom .col-md-3 div {
+  margin-top: 15px;
+}
+
+.footer-custom .icon-container {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.footer-custom .icon-container i {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 50%;
+  color: #000;
+  background-color: #f0f0f0; 
+}
+
+.payment div {
+  margin-top: 10px;
+}
+
+.divider {
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-center p {
+  margin: 0;
+}
+
+
+@media (max-width: 768px) {
+  .footer-custom .row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-custom .col-md-3 {
+    flex: 0 0 100%; 
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer-custom .icon-container i {
+    font-size: 18px;
+    padding: 8px;
+  }
+
+  .footer-custom .container {
+    padding: 0 20px;
+  }
+
+  .footer-custom .row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .footer-custom .col-md-3 {
+    margin-bottom: 20px;
+  }
+}
+
+
+/* FOOTER END */
+
+
+.herok {
+  position: relative;
+  height: 50vh; 
+  background: url('promo.jpg') no-repeat center center;
+  background-size: cover;
+  overflow: hidden;
+  background-attachment: fixed; 
+  background-position: center; 
+  background-size: cover;
+  border-radius: 30px;
+}
+
+
+
+.hero-contentk {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.hero-contentk h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  
+}
+
+.hero-contentk p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.hero-contentk .btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.hero-contentk .btn:hover {
+  background-color: #555;
+}
+
+
+
+.card-custom {
+  margin-bottom: 15px;
+}
+.card-body {
+  text-align: left;
+}
+.card-title-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.card-price {
+  color: #000000;
+  font-size: 1rem;
+}
+.btn-buy {
+  background-color: #000000 !important;
+  color: rgb(255, 255, 255) !important;
+  border-radius: 50px !important;
+  width: 30%;
+  text-align: center;
+  margin-top: 20px;
+}
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.row {
+  justify-content: center; 
+}
+
+.col {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+
+
+@media (min-width: 1024px){
+  #catalog-container{
+    margin-left: 50px;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  #catalog-container .col-md-3 {
+    flex: 0 0 50%; 
+    max-width: 50%;
+    margin-bottom: 20px;
+  }
+
+ 
+  #catalog-container .card-custom {
+    height: auto; 
+  }
+
+  
+  #catalog-container .btn-buy {
+    font-size: 0.9rem;
+    padding: 10px; 
+    width: 100%;
+    border-radius: 20px; 
+  }
+
+  
+  #catalog-container .card-title {
+    font-size: 1rem;
+  }
+
+  
+  #catalog-container .card-price {
+    font-size: 1rem;
+  }
+  #cokk{
+    margin-top: 300px;
+  }
+  
+}
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px; 
+  right: 20px; 
+  width: 50px;
+  height: 50px;
+  background-color: #0a0fa7 ; 
+  color:#e2f14e; 
+  border-radius: 50%; 
+  text-align: center;
+  line-height: 50px; 
+  font-size: 24px; 
+  display: none;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3); 
+  cursor: pointer;
+  z-index: 1000; 
+}
+
+.scroll-to-top:hover {
+  background-color: #e2f14e; 
+  color:  #0a0fa7 ;
+}
+
+.scroll-to-top i {
+  font-size: 24px; 
+}
+
+
+/* Mengatur card arrival di sebelah kanan carousel */
+@media (min-width: 1024px) {
+  #arrival-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Jarak antara card */
+    margin-left: 50px;
+  }
+
+  #arrival-container .col-md-3 {
+    flex: 0 0 24%; /* Menyisakan ruang untuk margin */
+    max-width: 24%;
+  }
+
+  #arrival-container .card-custom {
+    height: auto;
+  }
+
+  #arrival-container .btn-buy {
+    font-size: 1rem;
+    padding: 15px;
+    border-radius: 20px;
+  }
+
+  #arrival-container .card-title {
+    font-size: 1.2rem;
+  }
+
+  #arrival-container .card-price {
+    font-size: 1.2rem;
+  }
+}
+
+/* Responsif untuk perangkat dengan lebar layar maksimal 768px */
+@media (max-width: 768px) {
+  #arrival-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Jarak antara card */
+    margin: 0;
+  }
+
+  #arrival-container .col-md-3 {
+    flex: 0 0 45%; /* Menampilkan 2 card per baris */
+    max-width: 45%;
+    margin-bottom: 20px;
+  }
+
+  #arrival-container .card-custom {
+    height: auto;
+  }
+
+  #arrival-container .btn-buy {
+    font-size: 0.9rem;
+    padding: 10px;
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  #arrival-container .card-title {
+    font-size: 1rem;
+  }
+
+  #arrival-container .card-price {
+    font-size: 1rem;
+  }
+  #arrival-container .col-md-3 {
+    flex: 0 0 45% !important;
+    max-width: 45% !important;
+  }
+  
+}
+#modalProductImage {
+  display: block;
+  margin: 0 auto;
+}
+.ocean {
+  height: 5%; /* Adjust height if needed */
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #015871;
+  overflow: hidden; /* Prevents overflow */
+  z-index: -1; /* Sends it to the back */
+}
+
+.wave {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x;
+  position: absolute;
+  width: 6400px; /* Large width to create the wave effect */
+  top: -198px; /* Adjust position */
+  left: 0;
+  height: 198px; /* Height of the wave */
+  transform: translate(0, 0, 0);
+  animation: wave 7s ease infinite; /* Wave animation */
+}
+
+.wave:nth-of-type(2) {
+  top: -168px; /* Adjust for the second wave */
+  animation: swell 4s ease infinite; /* Different animation for the second wave */
+  opacity: 1; /* Opacity settings */
+}
+
+@keyframes wave {
+  0% { margin-left: 0; }
+  100% { margin-left: -1600px; } /* Full movement for wave animation */
+}
+
+@keyframes swell {
+  0%, 100% {
+    transform: translate(0, -30px); /* Swell movement */
+  }
+  50% {
+    transform: translate(0, 5px);
+  }
+}
+
+.hero_area {
+  position: relative;
+  height: 70vh;
+  background-color: rgb(10, 0, 195);
+  margin-top: 130px;
+}
+.wave-container {
+position: relative; /* Pastikan posisi relatif jika ada elemen lain di sekitarnya */
+z-index: 1; /* Pastikan gelombang di atas footer */
+}
+
+.footer-custom {
+position: relative; /* Untuk memastikan footer berada di bawah gelombang */
+z-index: 0; /* Agar footer berada di bawah gelombang */
+}
+
+.waves {
+  position: absolute;
+  width: 100%;
+  height: 15vh;
+  min-height: 100px;
+  max-height: 150px;
+  bottom: 0;
+  left: 0;
+}
+
+.parallax>use {
+  animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
+}
+
+.parallax>use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+
+.parallax>use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+
+.parallax>use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+
+.parallax>use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+
+@keyframes move-forever {
+  0% {
+      transform: translate3d(-90px, 0, 0);
+  }
+
+  100% {
+      transform: translate3d(85px, 0, 0);
+  }
+}
+
+
+/*Shrinking for mobile*/
+
+@media (max-width: 768px) {
+  .waves {
+      height: 40px;
+      min-height: 40px;
+      color: rgb(255, 255, 255);
+  }
+}
+
+/* Waves Animation end*/

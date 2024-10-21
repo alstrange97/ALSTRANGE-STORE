@@ -1,0 +1,1105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ALSTRANGE</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&family=Staatliches&family=Sunflower:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  </head>
+  <body>
+  <!-- NAVBAR START -->
+<nav class="navbar navbar-expand-lg p-4 fixed-top">
+  <a class="navbar-brand" href="#">
+    <img src="logo.PNG" alt="Logo" class="navbar-logo" />
+  </a>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-bs-toggle="collapse"
+    data-bs-target="#navbarNav"
+    aria-controls="navbarNav"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+    style="margin-top: -35px;"
+  >
+    <i class="bi bi-list" style="font-size: 1.5rem;"></i>
+  </button>
+  <div
+    class="collapse navbar-collapse"
+    id="navbarNav">
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="../index.html" style="color: black;">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../index.html#about" style="color: black;">ABOUT</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../index.html#faq" style="color: black;">FAQ</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../GALLERY/index.html" style="color: black;">GALLERY</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html" style="color: black;">CATALOG</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../LOCATION/index.html" style="color: black;">
+         LOCATION</i>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../CONTACT/index.html" style="color: black;">
+          <i class="bi bi-telephone"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!-- NAVBAR END -->
+
+
+    <!-- HERO START -->
+    <div class="hero">
+      <div class="hero-content" style="background-color: transparent; ">
+        <h1 style="text-decoration: none; margin-top: 50px; font-size: 50px; background-color: transparent; color: rgb(255, 255, 255); ">
+          CATALOG
+        </h1>
+      </div>
+    </div>
+    <!-- HERO END -->
+    <a href="#" class="scroll-to-top" id="scrollToTopBtn">
+      <i class="bi bi-caret-up-fill" style="background-color: transparent;"></i>
+    </a>
+  <!-- ARRIVAL START -->
+   <div class="so" style="background-color: #e6e6e6; margin-top: -25px;">
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-12">
+      <h3 class="new-arrival text-start" data-aos="fade-right">
+        <span style="color: #e2f14e; background-color: #0a0fa7; padding: 7px; border-radius: 30px; font-size: 35px;">NEW ARRIVAL</span>
+      </h3>
+    </div>
+  </div>
+
+  <div class="row text-center">
+    <div class="col-md-4 mx-auto">
+      <div id="productCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1500">
+       
+        <div class="carousel-inner" data-aos="fade-up">
+          <div class="carousel-item active">
+            <img src="img/n3.PNG" class="d-block w-100" alt="Product 1" />
+          </div>
+          <div class="carousel-item">
+            <img src="img/c2.PNG" class="d-block w-100" alt="Product 2" />
+          </div>
+          <div class="carousel-item">
+            <img src="img/c3.JPG" class="d-block w-100" alt="Product 3" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+   
+    
+    <div class="col-md-8 mx-auto d-flex align-items-start justify-content-center flex-wrap" id="cokk">
+      <div class="card card-custom m-2" data-aos="fade-up">
+        <img src="img/n1.jpg" class="card-img-top" alt="Item 1" />
+        <i class="bi bi-heart icon-menu position-absolute top-0 end-0 mt-2 me-2" onclick="toggleHeart(this)"></i>
+        <div class="card-body">
+          <div class="d-flex justify-content-between">
+            <h5 class="card-title">Automotive</h5>
+            <p class="card-text text-dark">$230</p>
+          </div>
+          <p class="card-description text-start">Deskripsi singkat mengenai item ini. Misalnya, fitur, kualitas, dan kelebihannya.</p>
+          <div class="text-start">
+            <button class="btn btn-buy" data-bs-toggle="modal" data-bs-target="#buyModal">Buy</button>
+          </div>
+        </div>
+      </div>
+    
+      <div class="card card-custom m-2" data-aos="fade-up">
+        <img src="img/n2.jpg" class="card-img-top" alt="Item 2" />
+        <i class="bi bi-heart icon-menu position-absolute top-0 end-0 mt-2 me-2" onclick="toggleHeart(this)"></i>
+        <div class="card-body">
+          <div class="d-flex justify-content-between">
+            <h5 class="card-title">Cupid D-5</h5>
+            <p class="card-text text-dark">$330</p>
+          </div>
+          <p class="card-description text-start">Deskripsi singkat mengenai item ini. Misalnya, fitur, kualitas, dan kelebihannya.</p>
+          <div class="text-center">
+            <button class="btn btn-buy" data-bs-toggle="modal" data-bs-target="#buyModal">Buy</button>
+          </div>
+        </div>
+      </div>
+    
+      <div class="card card-custom m-2" data-aos="fade-up"> 
+        <img src="img/n3.jpg" class="card-img-top" alt="Item 3" />
+        <i class="bi bi-heart icon-menu position-absolute top-0 end-0 mt-2 me-2" onclick="toggleHeart(this)"></i>
+        <div class="card-body">
+          <div class="d-flex justify-content-between">
+            <h5 class="card-title">ElecSwid</h5>
+            <p class="card-text text-dark">$120</p>
+          </div>
+          <p class="card-description text-start">Deskripsi singkat mengenai item ini. Misalnya, fitur, kualitas, dan kelebihannya.</p>
+          <div class="text-start">
+            <button class="btn btn-buy" data-bs-toggle="modal" data-bs-target="#buyModal">Buy</button>
+          </div>
+        </div>
+      </div>
+    
+      <div class="card card-custom m-2" data-aos="fade-up">
+        <img src="img/t3.jpg" class="card-img-top" alt="Item 2" />
+        <i class="bi bi-heart icon-menu position-absolute top-0 end-0 mt-2 me-2" onclick="toggleHeart(this)"></i>
+        <div class="card-body">
+          <div class="d-flex justify-content-between">
+            <h5 class="card-title">World Champ</h5>
+            <p class="card-text text-dark">$200</p>
+          </div>
+          <p class="card-description text-start">Deskripsi singkat mengenai item ini. Misalnya, fitur, kualitas, dan kelebihannya.</p>
+          <div class="text-start">
+            <button class="btn btn-buy" data-bs-toggle="modal" data-bs-target="#buyModal">Buy</button>
+          </div>
+        </div>
+      </div>
+    
+      <div class="card card-custom m-2" data-aos="fade-up">
+        <img src="img/t2.jpg" class="card-img-top" alt="Item 3" />
+        <i class="bi bi-heart icon-menu position-absolute top-0 end-0 mt-2 me-2" onclick="toggleHeart(this)"></i>
+        <div class="card-body">
+          <div class="d-flex justify-content-between">
+            <h5 class="card-title">Polo's</h5>
+            <p class="card-text text-dark">$400</p>
+          </div>
+          <p class="card-description text-start">Deskripsi singkat mengenai item ini. Misalnya, fitur, kualitas, dan kelebihannya.</p>
+          <div class="text-start">
+            <button class="btn btn-buy" data-bs-toggle="modal" data-bs-target="#buyModal">Buy</button>
+          </div>
+        </div>
+      </div>
+
+       <div class="card card-custom m-2" data-aos="fade-up">
+        <img src="img/t1.JPG" class="card-img-top" alt="Item 3" />
+        <i class="bi bi-heart icon-menu position-absolute top-0 end-0 mt-2 me-2" onclick="toggleHeart(this)"></i>
+        <div class="card-body">
+          <div class="d-flex justify-content-between">
+            <h5 class="card-title">Cowboy</h5>
+            <p class="card-text text-dark">$120</p>
+          </div>
+          <p class="card-description text-start">Deskripsi singkat mengenai item ini. Misalnya, fitur, kualitas, dan kelebihannya.</p>
+          <div class="text-start">
+            <button class="btn btn-buy" data-bs-toggle="modal" data-bs-target="#buyModal">Buy</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+<!-- ARRIVAL END -->
+ 
+
+
+<!-- MODAL START -->
+<div class="modal fade" id="buyModal" tabindex="-1" aria-labelledby="buyModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="buyModalLabel">Purchase Item</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <img id="modalProductImage" src="" alt="Product Image" class="img-fluid mb-3" style="width: 70%;">
+              <form>
+                  <div class="mb-3 row">
+                      <label for="buyerName" class="col-sm-4 col-form-label text-start">Name</label>
+                      <div class="col-sm-8">
+                          <input type="text" class="form-control" id="buyerName" required>
+                      </div>
+                  </div>
+                  <div class="mb-3 row">
+                      <label for="buyerEmail" class="col-sm-4 col-form-label text-start">Email</label>
+                      <div class="col-sm-8">
+                          <input type="email" class="form-control" id="buyerEmail" required>
+                      </div>
+                  </div>
+                  <div class="mb-3 row">
+                      <label for="buyerAddress" class="col-sm-4 col-form-label text-start">Address</label>
+                      <div class="col-sm-8">
+                          <input type="text" class="form-control" id="buyerAddress" required>
+                      </div>
+                  </div>
+                  <div class="mb-3 row">
+                      <label for="buyerQuantity" class="col-sm-4 col-form-label text-start">Quantity</label>
+                      <div class="col-sm-8">
+                          <input type="number" class="form-control" id="buyerQuantity" required min="1" value="1">
+                      </div>
+                  </div>
+                  <button type="submit" class="btn btn-dark">Confirm</button>
+              </form>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- MODAL END -->
+
+<!-- Modal -->
+<div class="modal fade" id="favoriteModal" tabindex="-1" aria-labelledby="favoriteModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content border-0 rounded-0 text-center">
+      <div class="modal-body">
+        <i class="bi bi-hearts" style="font-size: 48px; color: #e2f14e; border-radius: 20px;"></i>
+        <p class="mt-3 mb-0">You added items to favorites</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!---------------------- CARD START ----------------------->
+
+
+
+<div class="container mt-5">
+  <h2 class="text-center mb-4" style="font-family: Staatliches, sans-serif; font-size: 50px; margin-top: 100px;" data-aos="zoom-in">
+    <span style="color: #e2f14e; background-color: #0a0fa7; padding: 7px; border-radius: 30px; font-size: 35px;">PRODUCT</span>
+  </h2>
+
+  <div class="row justify-content-center mb-4 text-center">
+    <div class="col-auto" >
+        <button data-aos="zoom-in"class="btn btn-filter btn-block mb-2 mb-md-0" style="border-radius: 20px; background-color: #0a0fa7; color: #e2f14e;" data-category="all">All</button>
+        <button data-aos="zoom-in"class="btn btn-dark btn-filter btn-block mb-2 mb-md-0" style="border-radius: 20px;" data-category="baju">Baju</button>
+        <button data-aos="zoom-in"class="btn btn-dark btn-filter btn-block mb-2 mb-md-0" style="border-radius: 20px;" data-category="sepatu">Sepatu</button>
+        <button data-aos="zoom-in"class="btn btn-dark btn-filter btn-block mb-2 mb-md-0" style="border-radius: 20px;" data-category="tas">Tas</button>
+        <button data-aos="zoom-in"class="btn btn-dark btn-filter btn-block mb-2 mb-md-0" style="border-radius: 20px;" data-category="topi">Topi</button>
+        <button data-aos="zoom-in"class="btn btn-dark btn-filter btn-block mb-2 mb-md-0" style="border-radius: 20px;" data-category="keychain">Keychain</button>
+    </div>
+</div>
+
+  
+
+  <div id="catalog-container" class="row justify-content-center" data-aos="fade-up">
+
+  
+<!-- BAJU -->
+<div class="col-md-3" id="baju" data-category="baju">
+  <div class="card card-custom">
+    <img src="baju/1.JPG" class="card-img-top" alt="Kemeja Polos">
+    <i class="bi bi-heart icon-menu position-absolute top-0 end-0 mt-2 me-2" onclick="toggleHeart(this)"></i>
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center">
+        <h5 class="card-title mb-0">Good Girls</h5>
+        <p class="card-price mb-0">$200</p>
+      </div>
+      <p style="color: rgb(79, 79, 79); font-size: 15px; margin-top: 10px;">Soft cotton tee, perfect for daily wear. Very unique and cutesly effortly cool.</p>
+      <button class="btn btn-buy" data-bs-toggle="modal" data-bs-target="#buyModal">Buy</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3" data-category="baju">
+  <div class="card card-custom">
+    <img src="baju/2.JPG" class="card-img-top" alt="Sneakers Putih">
+    <i class="bi bi-heart icon-menu position-absolute top-0 end-0 mt-2 me-2" onclick="toggleHeart(this)"></i>
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center">
+        <h5 class="card-title mb-0">TR Shirt</h5>
+        <p class="card-price mb-0">$230</p>
+      </div>
+      <p style="color: rgb(79, 79, 79); font-size: 15px; margin-top: 10px;" >Stylish blouse with delicate many details. Very demure, very mindful, very cutesy.</p>
+      <button class="btn btn-buy" data-bs-toggle="modal" data-bs-target="#buyModal">Buy</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3" data-category="baju">
+  <div class="card card-custom">
+    <img src="baju/3.jpg" class="card-img-top" alt="Tas Ransel">
+    <i class="bi bi-heart icon-menu position-absolute top-0 end-0 mt-2 me-2" onclick="toggleHeart(this)"></i>
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center">
+        <h5 class="card-title mb-0">Red String</h5>
+        <p class="card-price mb-0">$150</p>
+      </div>
+      <p style="color: rgb(120, 120, 120); font-size: 15px; margin-top: 10px;">Classic shirt with a modern fit and news. Very demure, very mindful, very cutesy.</p>
+      <button class="btn btn-buy" data-bs-toggle="modal" data-bs-target="#buyModal">Buy</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3" data-category="baju">
+  <div class="card card-custom">
+    <img src="baju/4.jpg" class="card-img-top" alt="Topi Baseball">
+    <i class="bi bi-heart icon-menu position-absolute top-0 end-0 mt-2 me-2" onclick="toggleHeart(this)"></i>
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center">
+        <h5 class="card-title mb-0">Blue Art</h5>
+        <p class="card-price mb-0">$199</p>
+      </div>
+      <p style="color: rgb(120, 120, 120); font-size: 15px; margin-top: 10px;">Comfy shirt for a casual look and cool. Very demure, very mindful, very cutesy.</p>
+      <button class="btn btn-buy" data-bs-toggle="modal" data-bs-target="#buyModal">Buy</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3" data-category="baju">
+  <div class="card card-custom">
+    <img src="baju/5.JPG" class="card-img-top" alt="Kemeja Polos">
+    <i class="bi bi-heart icon-menu position-absolute top-0 end-0 mt-2 me-2" onclick="toggleHeart(this)"></i>
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center">
+        <h5 class="card-title mb-0">Big M</h5>
+        <p class="card-price mb-0">$260</p>
+      </div>
+      <p style="color: rgb(120, 120, 120); font-size: 15px; margin-top: 10px;">Elegant dress, perfect for any occasion. Very demure, very mindful, very cutesy.</p>
+      <button class="btn btn-buy" data-bs-toggle="modal" data-bs-target="#buyModal">Buy</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3" data-category="baju">
+  <div class="card card-custom">
+    <img src="baju/6.JPG" class="card-img-top" alt="Sneakers Putih">
+    <i class="bi bi-heart icon-menu position-absolute top-0 end-0 mt-2 me-2" onclick="toggleHeart(this)"></i>
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center">
+        <h5 class="card-title mb-0">Anime Brand</h5>
+        <p class="card-price mb-0">$175</p>
+      </div>
+      <p style="color: rgb(120, 120, 120); font-size: 15px; margin-top: 10px;">Shirt ideal for layering and comfy. Very demure, very mindful, very cutesy.</p>
+      <button class="btn btn-buy" data-bs-toggle="modal" data-bs-target="#buyModal">Buy</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3" data-category="baju">
+  <div class="card card-custom">
+    <img src="baju/7.PNG" class="card-img-top" alt="Tas Ransel">
+    <i class="bi bi-heart icon-menu position-absolute top-0 end-0 mt-2 me-2" onclick="toggleHeart(this)"></i>
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center">
+        <h5 class="card-title mb-0">Sprint Greb</h5>
+        <p class="card-price mb-0">$230</p>
+      </div>
+      <p style="color: rgb(120, 120, 120); font-size: 15px; margin-top: 10px;">Casual shirt with a sleek design and edgy. Very demure, very mindful, very cutesy.</p>
+      <button class="btn btn-buy" data-bs-toggle="modal" data-bs-target="#buyModal">Buy</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3" data-category="baju">
+  <div class="card card-custom">
+    <img src="baju/8.PNG" class="card-img-top" alt="Topi Baseball">
+    <i class="bi bi-heart icon-menu position-absolute top-0 end-0 mt-2 me-2" onclick="toggleHeart(this)"></i>
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center">
+        <h5 class="card-title mb-0">Jersey Stra</h5>
+        <p class="card-price mb-0">$189</p>
+      </div>
+      <p style="color: rgb(120, 120, 120); font-size: 15px; margin-top: 10px;">Chic shirt, warm, trendy and stylish. Very demure, very mindful, very cutesy.</p>
+      <button class="btn btn-buy" data-bs-toggle="modal" data-bs-target="#buyModal">Buy</button>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="favoriteModal" tabindex="-1" aria-labelledby="favoriteModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content text-center">
+      <div class="modal-body">
+        <i class="bi bi-hearts" style="font-size: 40px; color: #e2f14e;"></i>
+        <p class="mt-2">You added items to favorites</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  <!-- SEPATU -->
+<div class="col-md-3" data-category="sepatu">
+  <div class="card card-custom">
+    <img src="sepatu/1.png" class="card-img-top" alt="Cream Das">
+    <i class="bi bi-heart icon-menu position-absolute top-0 end-0 mt-2 me-2" onclick="toggleHeart(this)"></i>
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center">
+        <h5 class="card-title mb-0">Cream Das</h5>
+        <p class="card-price mb-0">$233</p>
+      </div>
+      <p style="color: rgb(120, 120, 120); font-size: 15px; margin-top: 10px;">Comfortable sneakers, perfect for wear. Very demure, very mindful, very cutesy.</p>
+      <button class="btn btn-buy" data-bs-toggle="modal" data-bs-target="#buyModal">Buy</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3" data-category="sepatu">
+  <div class="card card-custom">
+    <img src="sepatu/2.PNG" class="card-img-top" alt="Cream Das">
+    <i class="bi bi-heart icon-menu position-absolute top-0 end-0 mt-2 me-2" onclick="toggleHeart(this)"></i>
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center">
+        <h5 class="card-title mb-0">Cream Das</h5>
+        <p class="card-price mb-0">$233</p>
+      </div>
+      <p style="color: rgb(120, 120, 120); font-size: 15px; margin-top: 10px;">Sleek loafers, ideal for casual or formal looks. Very demure, very mindful, very cutesy.</p>
+      <button class="btn btn-buy" data-bs-toggle="modal" data-bs-target="#buyModal">Buy</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3" data-category="sepatu">
+  <div class="card card-custom">
+    <img src="sepatu/3.PNG" class="card-img-top" alt="Neon Nike">
+    <i class="bi bi-heart icon-menu position-absolute top-0 end-0 mt-2 me-2" onclick="toggleHeart(this)"></i>
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center">
+        <h5 class="card-title mb-0">Neon Nike</h5>
+        <p class="card-price mb-0">$350</p>
+      </div>
+      <p style="color: rgb(120, 120, 120); font-size: 15px; margin-top: 10px;">Stylish boots with durable. Very demure, very mindful, very cutesy.</p>
+      <button class="btn btn-buy" data-bs-toggle="modal" data-bs-target="#buyModal">Buy</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3" data-category="sepatu">
+  <div class="card card-custom">
+    <img src="sepatu/4.PNG" class="card-img-top" alt="New Balance">
+    <i class="bi bi-heart icon-menu position-absolute top-0 end-0 mt-2 me-2" onclick="toggleHeart(this)"></i>
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center">
+        <h5 class="card-title mb-0">New Balance</h5>
+        <p class="card-price mb-0">$320</p>
+      </div>
+      <p style="color: rgb(120, 120, 120); font-size: 15px; margin-top: 10px;">Elegant heels, perfect for any special occasion. Very demure, very mindful, very cutesy.</p>
+      <button class="btn btn-buy" data-bs-toggle="modal" data-bs-target="#buyModal">Buy</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3" data-category="sepatu">
+  <div class="card card-custom">
+    <img src="sepatu/5.PNG" class="card-img-top" alt="Sky Shoes">
+    <i class="bi bi-heart icon-menu position-absolute top-0 end-0 mt-2 me-2" onclick="toggleHeart(this)"></i>
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center">
+        <h5 class="card-title mb-0">Sky Shoes</h5>
+        <p class="card-price mb-0">$290</p>
+      </div>
+      <p style="color: rgb(120, 120, 120); font-size: 15px; margin-top: 10px;">Perfect for warm summer days. Very demure, very mindful, very cutesy.</p>
+      <button class="btn btn-buy" data-bs-toggle="modal" data-bs-target="#buyModal">Buy</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3" data-category="sepatu">
+  <div class="card card-custom">
+    <img src="sepatu/6.PNG" class="card-img-top" alt="Mountain Boots">
+    <i class="bi bi-heart icon-menu position-absolute top-0 end-0 mt-2 me-2" onclick="toggleHeart(this)"></i>
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center">
+        <h5 class="card-title mb-0">Mountain Boots</h5>
+        <p class="card-price mb-0">$400</p>
+      </div>
+      <p style="color: rgb(120, 120, 120); font-size: 15px; margin-top: 10px;">Durable hiking boots, ideal adventures. Very demure, very mindful, very cutesy.</p>
+      <button class="btn btn-buy" data-bs-toggle="modal" data-bs-target="#buyModal">Buy</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3" data-category="sepatu">
+  <div class="card card-custom">
+    <img src="sepatu/7.PNG" class="card-img-top" alt="Sprint Sneakers">
+    <i class="bi bi-heart icon-menu position-absolute top-0 end-0 mt-2 me-2" onclick="toggleHeart(this)"></i>
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center">
+        <h5 class="card-title mb-0">Sprint Sneakers</h5>
+        <p class="card-price mb-0">$270</p>
+      </div>
+      <p style="color: rgb(120, 120, 120); font-size: 15px; margin-top: 10px;">Quick run or a walk around town. Very demure, very mindful, very cutesy.</p>
+      <button class="btn btn-buy" data-bs-toggle="modal" data-bs-target="#buyModal">Buy</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3" data-category="sepatu">
+  <div class="card card-custom">
+    <img src="sepatu/8.PNG" class="card-img-top" alt="Vintage Shoes">
+    <i class="bi bi-heart icon-menu position-absolute top-0 end-0 mt-2 me-2" onclick="toggleHeart(this)"></i>
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center">
+        <h5 class="card-title mb-0">Vintage Shoes</h5>
+        <p class="card-price mb-0">$330</p>
+      </div>
+      <p style="color: rgb(120, 120, 120); font-size: 15px; margin-top: 10px;">Timeless shoes for a touch of classic style. Very demure, very mindful, very cutesy.</p>
+      <button class="btn btn-buy" data-bs-toggle="modal" data-bs-target="#buyModal">Buy</button>
+    </div>
+  </div>
+</div>
+
+<!-- TAS -->
+<div class="col-md-3" data-category="tas">
+  <div class="card card-custom">
+    <img src="tas/1.JPG" class="card-img-top" alt="Sling Bag">
+    <i class="bi bi-heart icon-menu position-absolute top-0 end-0 mt-2 me-2" onclick="toggleHeart(this)"></i>
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center">
+        <h5 class="card-title mb-0">Sling Bag</h5>
+        <p class="card-price mb-0">$125</p>
+      </div>
+      <p style="color: rgb(120, 120, 120); font-size: 15px; margin-top: 10px;">Multifunctional backpack with ample space. Very demure, very mindful, very cutesy.</p>
+      <button class="btn btn-buy" data-bs-toggle="modal" data-bs-target="#buyModal">Buy</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3" data-category="tas">
+  <div class="card card-custom">
+    <img src="tas/2.JPG" class="card-img-top" alt="Sling Bag">
+    <i class="bi bi-heart icon-menu position-absolute top-0 end-0 mt-2 me-2" onclick="toggleHeart(this)"></i>
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center">
+        <h5 class="card-title mb-0">Sling Bag</h5>
+        <p class="card-price mb-0">$125</p>
+      </div>
+      <p style="color: rgb(120, 120, 120); font-size: 15px; margin-top: 10px;">Multifunctional backpack with ample space. Very demure, very mindful, very cutesy.</p>
+      <button class="btn btn-buy" data-bs-toggle="modal" data-bs-target="#buyModal">Buy</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3" data-category="tas">
+  <div class="card card-custom">
+    <img src="tas/3.JPG" class="card-img-top" alt="Red Glossy">
+    <i class="bi bi-heart icon-menu position-absolute top-0 end-0 mt-2 me-2" onclick="toggleHeart(this)"></i>
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center">
+        <h5 class="card-title mb-0">Red Glossy</h5>
+        <p class="card-price mb-0">$150</p>
+      </div>
+      <p style="color: rgb(120, 120, 120); font-size: 15px; margin-top: 10px;">Luxurious clutch with metallic accents. Very demure, very mindful, very cutesy.</p>
+      <button class="btn btn-buy" data-bs-toggle="modal" data-bs-target="#buyModal">Buy</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3" data-category="tas">
+  <div class="card card-custom">
+    <img src="tas/4.JPG" class="card-img-top" alt="Backpack Dr">
+    <i class="bi bi-heart icon-menu position-absolute top-0 end-0 mt-2 me-2" onclick="toggleHeart(this)"></i>
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center">
+        <h5 class="card-title mb-0">Backpack Dr</h5>
+        <p class="card-price mb-0">$120</p>
+      </div>
+      <p style="color: rgb(120, 120, 120); font-size: 15px; margin-top: 10px;">Spacious tote bag, perfect for shopping. Very demure, very mindful, very cutesy.</p>
+      <button class="btn btn-buy" data-bs-toggle="modal" data-bs-target="#buyModal">Buy</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3" data-category="tas">
+  <div class="card card-custom">
+    <img src="tas/5.PNG" class="card-img-top" alt="Star Emo">
+    <i class="bi bi-heart icon-menu position-absolute top-0 end-0 mt-2 me-2" onclick="toggleHeart(this)"></i>
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center">
+        <h5 class="card-title mb-0">Star Emo</h5>
+        <p class="card-price mb-0">$200</p>
+      </div>
+      <p style="color: rgb(120, 120, 120); font-size: 15px; margin-top: 10px;">Trendy sling bag in pastel tones with star. Very demure, very mindful, very cutesy.</p>
+      <button class="btn btn-buy" data-bs-toggle="modal" data-bs-target="#buyModal">Buy</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3" data-category="tas">
+  <div class="card card-custom">
+    <img src="tas/6.PNG" class="card-img-top" alt="Mini Bag">
+    <i class="bi bi-heart icon-menu position-absolute top-0 end-0 mt-2 me-2" onclick="toggleHeart(this)"></i>
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center">
+        <h5 class="card-title mb-0">Mini Bag</h5>
+        <p class="card-price mb-0">$180</p>
+      </div>
+      <p style="color: rgb(120, 120, 120); font-size: 15px; margin-top: 10px;">Small but versatile, a perfect accessory. Very demure, very mindful, very cutesy.</p>
+      <button class="btn btn-buy" data-bs-toggle="modal" data-bs-target="#buyModal">Buy</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3" data-category="tas">
+  <div class="card card-custom">
+    <img src="tas/7.PNG" class="card-img-top" alt="Big Traveler">
+    <i class="bi bi-heart icon-menu position-absolute top-0 end-0 mt-2 me-2" onclick="toggleHeart(this)"></i>
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center">
+        <h5 class="card-title mb-0">Big Traveler</h5>
+        <p class="card-price mb-0">$250</p>
+      </div>
+      <p style="color: rgb(120, 120, 120); font-size: 15px; margin-top: 10px;">A large backpack for all your travel essentials. Very demure, very mindful, very cutesy.</p>
+      <button class="btn btn-buy" data-bs-toggle="modal" data-bs-target="#buyModal">Buy</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3" data-category="tas">
+  <div class="card card-custom">
+    <img src="tas/8.PNG" class="card-img-top" alt="Elegant Tote">
+    <i class="bi bi-heart icon-menu position-absolute top-0 end-0 mt-2 me-2" onclick="toggleHeart(this)"></i>
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center">
+        <h5 class="card-title mb-0">Elegant Tote</h5>
+        <p class="card-price mb-0">$210</p>
+      </div>
+      <p style="color: rgb(120, 120, 120); font-size: 15px; margin-top: 10px;">Elegant tote bag for everyday use. Very demure, very mindful, very cutesy.</p>
+      <button class="btn btn-buy" data-bs-toggle="modal" data-bs-target="#buyModal">Buy</button>
+    </div>
+  </div>
+</div>
+
+
+  <!-- TOPI -->
+<div class="col-md-3" id="topi" data-category="topi">
+  <div class="card card-custom">
+    <img src="topi/1.JPG" class="card-img-top" alt="Kemeja Polos">
+    <i class="bi bi-heart icon-menu position-absolute top-0 end-0 mt-2 me-2" onclick="toggleHeart(this)"></i>
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center">
+        <h5 class="card-title mb-0">Amesy Re</h5>
+        <p class="card-price mb-0">$120</p>
+      </div>
+      <p style="color: rgb(79, 79, 79); font-size: 15px; margin-top: 10px;">Classic baseball cap, perfect for casual wear. Very demure, very mindful, very cutesy.</p>
+      <button class="btn btn-buy" data-bs-toggle="modal" data-bs-target="#buyModal">Buy</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3" data-category="topi">
+  <div class="card card-custom">
+    <img src="topi/2.JPG" class="card-img-top" alt="Sneakers Putih">
+    <i class="bi bi-heart icon-menu position-absolute top-0 end-0 mt-2 me-2" onclick="toggleHeart(this)"></i>
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center">
+        <h5 class="card-title mb-0">Stary Pro</h5>
+        <p class="card-price mb-0">$115</p>
+      </div>
+      <p style="color: rgb(79, 79, 79); font-size: 15px; margin-top: 10px;">Stylish fedora, adds a touch of sophistication. Very demure, very mindful, very cutesy.</p>
+      <button class="btn btn-buy" data-bs-toggle="modal" data-bs-target="#buyModal">Buy</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3" data-category="topi">
+  <div class="card card-custom">
+    <img src="topi/3.JPG" class="card-img-top" alt="Tas Ransel">
+    <i class="bi bi-heart icon-menu position-absolute top-0 end-0 mt-2 me-2" onclick="toggleHeart(this)"></i>
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center">
+        <h5 class="card-title mb-0">Stary Gold</h5>
+        <p class="card-price mb-0">$115</p>
+      </div>
+      <p style="color: rgb(79, 79, 79); font-size: 15px; margin-top: 10px;">Warm beanie, ideal for cold weather. Very demure, very mindful, very cutesy.</p>
+      <button class="btn btn-buy" data-bs-toggle="modal" data-bs-target="#buyModal">Buy</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3" data-category="topi">
+  <div class="card card-custom">
+    <img src="topi/4.JPG" class="card-img-top" alt="Topi Baseball">
+    <i class="bi bi-heart icon-menu position-absolute top-0 end-0 mt-2 me-2" onclick="toggleHeart(this)"></i>
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center">
+        <h5 class="card-title mb-0">Green Forst</h5>
+        <p class="card-price mb-0">$95</p>
+      </div>
+      <p style="color: rgb(79, 79, 79); font-size: 15px; margin-top: 10px;">Lightweight sun hat, perfect for summer days. Very demure, very mindful, very cutesy.</p>
+      <button class="btn btn-buy" data-bs-toggle="modal" data-bs-target="#buyModal">Buy</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3" data-category="topi">
+  <div class="card card-custom">
+    <img src="topi/5.JPG" class="card-img-top" alt="Kemeja Polos">
+    <i class="bi bi-heart icon-menu position-absolute top-0 end-0 mt-2 me-2" onclick="toggleHeart(this)"></i>
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center">
+        <h5 class="card-title mb-0">New York</h5>
+        <p class="card-price mb-0">$105</p>
+      </div>
+      <p style="color: rgb(79, 79, 79); font-size: 15px; margin-top: 10px;">Trendy bucket hat, adds flair to any outfit. Very demure, very mindful, very cutesy.</p>
+      <button class="btn btn-buy" data-bs-toggle="modal" data-bs-target="#buyModal">Buy</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3" data-category="topi">
+  <div class="card card-custom">
+    <img src="topi/6.JPG" class="card-img-top" alt="Sneakers Putih">
+    <i class="bi bi-heart icon-menu position-absolute top-0 end-0 mt-2 me-2" onclick="toggleHeart(this)"></i>
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center">
+        <h5 class="card-title mb-0">Bucket Hat</h5>
+        <p class="card-price mb-0">$110</p>
+      </div>
+      <p style="color: rgb(79, 79, 79); font-size: 15px; margin-top: 10px;">Perfect for a casual yet trendy look. Very demure, very mindful, very cutesy.</p>
+      <button class="btn btn-buy" data-bs-toggle="modal" data-bs-target="#buyModal">Buy</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3" data-category="topi">
+  <div class="card card-custom">
+    <img src="topi/7.JPG" class="card-img-top" alt="Tas Ransel">
+    <i class="bi bi-heart icon-menu position-absolute top-0 end-0 mt-2 me-2" onclick="toggleHeart(this)"></i>
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center">
+        <h5 class="card-title mb-0">Winter Cap</h5>
+        <p class="card-price mb-0">$125</p>
+      </div>
+      <p style="color: rgb(79, 79, 79); font-size: 15px; margin-top: 10px;">Cozy winter cap, great for chilly days. Very demure, very mindful, very cutesy.</p>
+      <button class="btn btn-buy" data-bs-toggle="modal" data-bs-target="#buyModal">Buy</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3" data-category="topi">
+  <div class="card card-custom">
+    <img src="topi/8.JPG" class="card-img-top" alt="Topi Baseball">
+    <i class="bi bi-heart icon-menu position-absolute top-0 end-0 mt-2 me-2" onclick="toggleHeart(this)"></i>
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center">
+        <h5 class="card-title mb-0">Summer Straw</h5>
+        <p class="card-price mb-0">$99</p>
+      </div>
+      <p style="color: rgb(79, 79, 79); font-size: 15px; margin-top: 10px;">Elegant straw hat for a sunny day. Very demure, very mindful, very cutesy.</p>
+      <button class="btn btn-buy" data-bs-toggle="modal" data-bs-target="#buyModal">Buy</button>
+    </div>
+  </div>
+</div>
+
+
+
+  <!-- KEYCHAIN -->
+<div class="col-md-3" id="key" data-category="keychain">
+  <div class="card card-custom">
+    <img src="key/1.JPG" class="card-img-top" alt="Shining Cho">
+    <i class="bi bi-heart icon-menu position-absolute top-0 end-0 mt-2 me-2" onclick="toggleHeart(this)"></i>
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center">
+        <h5 class="card-title mb-0">Shining Cho</h5>
+        <p class="card-price mb-0">$34</p>
+      </div>
+      <p style="color: rgb(79, 79, 79); font-size: 15px; margin-top: 10px;">Chic leather keychain, stylish and durable. Very demure, very mindful, very cutesy.</p>
+      <button class="btn btn-buy" data-bs-toggle="modal" data-bs-target="#buyModal">Buy</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3" data-category="keychain">
+  <div class="card card-custom">
+    <img src="key/2.JPG" class="card-img-top" alt="Starry">
+    <i class="bi bi-heart icon-menu position-absolute top-0 end-0 mt-2 me-2" onclick="toggleHeart(this)"></i>
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center">
+        <h5 class="card-title mb-0">Starry</h5>
+        <p class="card-price mb-0">$34</p>
+      </div>
+      <p style="color: rgb(79, 79, 79); font-size: 15px; margin-top: 10px;">Minimalist metal keychain, sleek and sturdy. Very demure, very mindful, very cutesy.</p>
+      <button class="btn btn-buy" data-bs-toggle="modal" data-bs-target="#buyModal">Buy</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3" data-category="keychain">
+  <div class="card card-custom">
+    <img src="key/3.JPG" class="card-img-top" alt="Guitar Riz">
+    <i class="bi bi-heart icon-menu position-absolute top-0 end-0 mt-2 me-2" onclick="toggleHeart(this)"></i>
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center">
+        <h5 class="card-title mb-0">Guitar Riz</h5>
+        <p class="card-price mb-0">$38</p>
+      </div>
+      <p style="color: rgb(79, 79, 79); font-size: 15px; margin-top: 10px;">Cool charm, adds personality to your keys. Very demure, very mindful, very cutesy.</p>
+      <button class="btn btn-buy" data-bs-toggle="modal" data-bs-target="#buyModal">Buy</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3" data-category="keychain">
+  <div class="card card-custom">
+    <img src="key/4.JPG" class="card-img-top" alt="Battle Ship">
+    <i class="bi bi-heart icon-menu position-absolute top-0 end-0 mt-2 me-2" onclick="toggleHeart(this)"></i>
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center">
+        <h5 class="card-title mb-0">Battle Ship</h5>
+        <p class="card-price mb-0">$38</p>
+      </div>
+      <p style="color: rgb(79, 79, 79); font-size: 15px; margin-top: 10px;">Personalized keychain, perfect for a unique. Very demure, very mindful, very cutesy.</p>
+      <button class="btn btn-buy" data-bs-toggle="modal" data-bs-target="#buyModal">Buy</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3" data-category="keychain">
+  <div class="card card-custom">
+    <img src="key/5.JPG" class="card-img-top" alt="Figure Eye">
+    <i class="bi bi-heart icon-menu position-absolute top-0 end-0 mt-2 me-2" onclick="toggleHeart(this)"></i>
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center">
+        <h5 class="card-title mb-0">Figure Eye</h5>
+        <p class="card-price mb-0">$50</p>
+      </div>
+      <p style="color: rgb(79, 79, 79); font-size: 15px; margin-top: 10px;">Fun novelty keychain, perfect for gifting. Very demure, very mindful, very cutesy.</p>
+      <button class="btn btn-buy" data-bs-toggle="modal" data-bs-target="#buyModal">Buy</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3" data-category="keychain">
+  <div class="card card-custom">
+    <img src="key/6.JPG" class="card-img-top" alt="Rubics Key">
+    <i class="bi bi-heart icon-menu position-absolute top-0 end-0 mt-2 me-2" onclick="toggleHeart(this)"></i>
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center">
+        <h5 class="card-title mb-0">Rubics Key</h5>
+        <p class="card-price mb-0">$30</p>
+      </div>
+      <p style="color: rgb(79, 79, 79); font-size: 15px; margin-top: 10px;">Vibrant acrylic keychain, adds a pop of color. Very demure, very mindful, very cutesy.</p>
+      <button class="btn btn-buy" data-bs-toggle="modal" data-bs-target="#buyModal">Buy</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3" data-category="keychain">
+  <div class="card card-custom">
+    <img src="key/7.JPG" class="card-img-top" alt="Blub Blub">
+    <i class="bi bi-heart icon-menu position-absolute top-0 end-0 mt-2 me-2" onclick="toggleHeart(this)"></i>
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center">
+        <h5 class="card-title mb-0">Blub Blub</h5>
+        <p class="card-price mb-0">$34</p>
+      </div>
+      <p style="color: rgb(79, 79, 79); font-size: 15px; margin-top: 10px;">Fun novelty keychain, perfect for gifting. Very demure, very mindful, very cutesy.</p>
+      <button class="btn btn-buy" data-bs-toggle="modal" data-bs-target="#buyModal">Buy</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3" data-category="keychain">
+  <div class="card card-custom">
+    <img src="key/8.JPG" class="card-img-top" alt="Robot Beep">
+    <i class="bi bi-heart icon-menu position-absolute top-0 end-0 mt-2 me-2" onclick="toggleHeart(this)"></i>
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-center">
+        <h5 class="card-title mb-0">Robot Beep</h5>
+        <p class="card-price mb-0">$34</p>
+      </div>
+      <p style="color: rgb(79, 79, 79); font-size: 15px; margin-top: 10px;">Elegant tassel keychain, adds a stylish flair. Very demure, very mindful, very cutesy.</p>
+      <button class="btn btn-buy" data-bs-toggle="modal" data-bs-target="#buyModal">Buy</button>
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+</div>
+
+
+
+<!---------------------- CARD END ----------------------->
+
+
+ <!-- FOOTER START -->
+ <section id="footer">
+  <footer class="footer-custom">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <img src="../img/logo.PNG" alt="Alstrange Logo" class="logo" style="width: 150px;">
+          <p style="margin-top: -30px;">Welcome to Alstrange! We offer a stylish selection of clothing, hats, shoes, bags, and keychains. Enjoy a seamless shopping experience with us!</p>
+        </div>
+        <div class="col-md-3">
+          <div style="margin-top: 100px;">
+            <strong>Location:</strong>
+            <p>Jl. Cuwi No. 456
+              Kawasan Imaginasi
+              Jakarta 67890
+              Indonesia</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div style="margin-top: 130px;">
+            <a href="https://www.instagram.com" target="_blank" class="icon-container" >
+              <i class="bi bi-instagram" style="background-color: #e7e7e7;"></i>
+            </a>
+            <a href="mailto:example@example.com" class="icon-container">
+              <i class="bi bi-envelope-fill" style="background-color: #efeeee;"></i>
+            </a>
+            <a href="tel:+123456789" class="icon-container">
+              <i class="bi bi-telephone-fill" style="background-color: #f4f4f4;"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div style="margin-top: 70px;">
+            <strong>Payment:</strong>
+            <div class="payment">
+              <div>GoPay</div>
+              <div>Bank Transfer</div>
+              <div>QRIS</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="divider"></div>
+      <div class="text-center">
+        <p>© 2020 Copyright: alstrange</p>
+      </div>
+    </div>
+  </footer>
+</section>
+ 
+<!-- FOOTER END -->
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+
+<script>
+  // Inisialisasi AOS jika digunakan
+  AOS.init();
+
+  // Fungsi untuk menampilkan katalog berdasarkan tipe produk
+  function showCatalog(type) {
+    const container = document.getElementById('catalog-container');
+    container.innerHTML = ''; // Hapus konten lama
+
+    catalogs[type].forEach(item => {
+      const card = document.createElement('div');
+      card.className = 'col-md-3';
+
+      card.innerHTML = `
+        <div class="card card-custom">
+          <img src="${item.img}" class="card-img-top" alt="${item.name}">
+          <div class="card-body">
+            <h5 class="card-title">${item.name}</h5>
+            <p class="card-price">${item.price}</p>
+            <button class="btn btn-buy" data-image-src="${item.img}">Buy</button>
+          </div>
+        </div>
+      `;
+
+      container.appendChild(card);
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', function() {
+    // Get query string parameters
+    const urlParams = new URLSearchParams(window.location.search);
+    const catalogType = urlParams.get('type') || 'baju';
+
+    if (catalogType && catalogs[catalogType]) {
+      showCatalog(catalogType);
+    }
+
+    // Tambahkan event listener untuk tombol Buy
+    document.getElementById('catalog-container').addEventListener('click', function(event) {
+      if (event.target.classList.contains('btn-buy')) {
+        const imgSrc = event.target.getAttribute('data-image-src');
+        const modalProductImage = document.getElementById('modalProductImage');
+        const modalElement = document.getElementById('buyModal');
+        const modal = new bootstrap.Modal(modalElement);
+
+        modalProductImage.src = imgSrc;
+        modal.show();
+      }
+    });
+  });
+
+  // Penanganan filter kategori
+  document.addEventListener("DOMContentLoaded", function() {
+    const buttons = document.querySelectorAll(".btn-filter");
+    const cards = document.querySelectorAll(".col-md-3");
+
+    buttons.forEach(button => {
+      button.addEventListener("click", function() {
+        const category = button.getAttribute("data-category");
+
+        cards.forEach(card => {
+          if (category === "all" || card.getAttribute("data-category") === category) {
+            card.style.display = "block";
+          } else {
+            card.style.display = "none";
+          }
+        });
+      });
+    });
+  });
+
+  // Event listener untuk tombol Buy di luar katalog
+  document.querySelectorAll('.btn-buy').forEach(button => {
+    button.addEventListener('click', function() {
+      const card = this.closest('.card');
+      const imageUrl = card.querySelector('.card-img-top').src;
+
+      // Set the image source in the modal
+      const modalImage = document.getElementById('modalProductImage');
+      modalImage.src = imageUrl;
+    });
+  });
+
+  // Menampilkan tombol "Scroll to Top" saat scroll ke bawah
+  window.onscroll = function() {
+    let button = document.getElementById("scrollToTopBtn");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+      button.style.display = "block";
+    } else {
+      button.style.display = "none";
+    }
+  };
+
+  // Scroll ke atas saat tombol diklik
+  document.getElementById("scrollToTopBtn").onclick = function() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    return false; // Mencegah link default behavior
+  };
+</script>
+
+<script>
+  function toggleHeart(element) {
+    if (element.classList.contains('bi-heart')) {
+      element.classList.remove('bi-heart');
+      element.classList.add('bi-heart-fill');
+
+      // Menampilkan modal
+      var favoriteModal = new bootstrap.Modal(document.getElementById('favoriteModal'));
+      favoriteModal.show();
+
+      // Menghilangkan modal setelah 2 detik
+      setTimeout(function() {
+        favoriteModal.hide();
+      }, 2000);
+    } else {
+      element.classList.remove('bi-heart-fill');
+      element.classList.add('bi-heart');
+    }
+  }
+</script>
